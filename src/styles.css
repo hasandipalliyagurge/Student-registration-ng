@@ -1,5 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+
+.container{
+    
+    margin: 0px auto;
+    padding: 0px;
+}
+header {
+    background: white;
+    width: 100%;
+  }
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  nav {
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+  
 div.sm-jumbotron{
     margin: 0px;
     padding: 2rem;

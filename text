@@ -2,7 +2,7 @@
 <div class="container">
     <nav>
         <ul>
-        <button routerLinkActive="active"  class="btn btn-primary">Login</button>
+        <button routerLink="/signup" routerLinkActive="active"  class="btn btn-primary">Login</button>
         </ul>
     </nav>
 </div>
@@ -58,7 +58,7 @@
        
        
         <!-- Phone number -->
-        <input type="tel" name="Phone"  pattern="^\d{10}$" #Phone="ngModel" [(ngModel)]="user.Phone" class="form-control" placeholder="Phone number">
+        <input type="tel" name="Phone"  pattern="^\d{10}$" #Phone="ngModel" (ngModel)="user.Phone" class="form-control" placeholder="Phone number">
         <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
             Optional - for two step authentication
         </small>

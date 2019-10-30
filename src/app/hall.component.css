@@ -1,0 +1,43 @@
+.name{
+    size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-bottom: 2px solid black;
+}
+
+ .hotel-room .hotel-room-body {
+          padding: 50px; }
+
+        .hotel-room > .thumbnail {
+          overflow: hidden;
+          position: relative; }
+          .hotel-room > .thumbnail img {
+            -webkit-transition: .3s all ease;
+            -o-transition: .3s all ease;
+            transition: .3s all ease;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1); }
+        .hotel-room:hover {
+          -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05); }
+          .hotel-room:hover img {
+            -webkit-transform: scale(1.15);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05); }
+      
+      .image-absolute {
+        position: absolute;
+        width: 100%;
+       
+        border: 10px solid #fff;
+        z-index: 9;
+      }
+      
+      
+        .botton
+        {
+            position: relative;
+            
+        }
+
+      
